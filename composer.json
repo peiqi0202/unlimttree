@@ -1,0 +1,25 @@
+{
+    "name": "chance/unlimttree",
+    "authors": [
+        {
+            "name": "root",
+            "email": "453007537@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wys\\UnlimitTree\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "Wys\\UnlimitTree\\Tests": "tests/"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wys\\UnlimitTree\\UnlimitTreeServiceProvider"
+            ]
+        }
+    }
+}
